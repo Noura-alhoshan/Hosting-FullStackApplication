@@ -1,5 +1,5 @@
-aws s3 cp --recursive --acl public-read ./www s3://sarahudagrambucket/
-aws s3 cp --acl public-read --cache-control="max-age=0, no-cache, no-store, must-revalidate" ./www s3://sarahudagrambucket/
+aws s3 cp --recursive --acl public-read ./www s3://mynourabucket/
+aws s3 cp --acl public-read --cache-control="max-age=0, no-cache, no-store, must-revalidate" ./www s3://mynourabucket/
 
 eb setenv POSTGRES_USERNAME=$POSTGRES_USERNAME
 eb setenv AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID
