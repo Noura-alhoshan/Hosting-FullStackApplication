@@ -8,4 +8,4 @@ export AWS_BUCKET=mynourabucket
 export AWS_REGION=us-east-1
 export AWS_PROFILE=default
 export JWT_SECRET=seceret
-export URL=udagram-api-devv.eba-yqpmfi5b.us-east-1.elasticbeanstalk.com
+export URL=udagram-api-dev.eba-yqpmfi5b.us-east-1.elasticbeanstalk.com
